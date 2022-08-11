@@ -36,6 +36,8 @@ import SequenceLogo from "../logos/sequence.svg";
 import BitkeepLogo from "../logos/bitkeepwallet.png";
 // @ts-ignore
 import StarzWalletLogo from "../logos/starzwallet.svg";
+// @ts-ignore
+import Coin98Logo from "../logos/coin98.png";
 
 
 import { IProviderInfo } from "../../helpers";
@@ -224,3 +226,10 @@ export const STARZWALLET: IProviderInfo = {
   check: "isStarzWallet"
 };
 
+export const COIN98WALLET: IProviderInfo = {
+  id: "coin98wallet",
+  name: "coin98wallet",
+  logo: Coin98Logo,
+  type: "injected",
+  check: "isCoin98"
+};
